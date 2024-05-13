@@ -6,7 +6,7 @@
   "waitFor": "onCreateCommand",
   "postCreateCommand": "",
   "tasks": {
-    "build": "npm run build",
+    "build": "npm install && npm run build",
     "test": "npm test",
     "launch": "npm start"
   },
@@ -23,5 +23,7 @@
       "onAutoForward": "openPreview"
     }
   },
-  "forwardPorts": [3000]
+  "forwardPorts": [
+    3000
+  ]
 }
